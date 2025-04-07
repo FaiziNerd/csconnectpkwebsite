@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
-import { BrainCog, Lightbulb, Sparkles } from "lucide-react";
+import { Network, Users, Sparkles } from "lucide-react";
 
 const ProjectSection = () => {
   return (
@@ -12,32 +12,32 @@ const ProjectSection = () => {
         <div className="text-center mb-16">
           <h2 className="font-cyber text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-cyber-purple via-cyber-pink to-cyber-cyan bg-clip-text text-transparent">
-              PROJECT OVERVIEW
+              OUR MISSION
             </span>
           </h2>
           <div className="h-1 w-24 bg-gradient-to-r from-cyber-purple to-cyber-cyan mx-auto"></div>
           <p className="text-gray-300 mt-6 max-w-3xl mx-auto">
-            NeuroHack bridges the gap between neural science and artificial intelligence,
-            creating a platform where developers can build brain-computer interfaces for the next generation.
+            CS Connect Pakistan bridges the gap between academic computer science education and industry needs,
+            creating a platform where professionals can connect, collaborate, and innovate together.
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {[
             {
-              icon: <BrainCog className="h-12 w-12 text-cyber-purple" />,
-              title: "Neural Interface",
-              description: "Advanced brain mapping algorithm that translates neural impulses into digital commands with unprecedented accuracy."
+              icon: <Network className="h-12 w-12 text-cyber-purple" />,
+              title: "Professional Networking",
+              description: "Connect with CS professionals across Pakistan through local events, virtual meetups, and our interactive online platform."
             },
             {
               icon: <Sparkles className="h-12 w-12 text-cyber-cyan" />,
-              title: "AI Integration",
-              description: "Cutting-edge machine learning models that adapt to individual thought patterns and learn from each interaction."
+              title: "Skill Development",
+              description: "Access workshops, training sessions, and resources designed to keep you updated with the latest technologies and practices."
             },
             {
-              icon: <Lightbulb className="h-12 w-12 text-cyber-pink" />,
-              title: "Open Protocol",
-              description: "Developer-friendly API that allows anyone to build applications leveraging our neural interface technology."
+              icon: <Users className="h-12 w-12 text-cyber-pink" />,
+              title: "Community Building",
+              description: "Join a growing community of CS enthusiasts committed to elevating Pakistan's technology landscape through collaboration."
             }
           ].map((item, index) => (
             <div key={index} className="group">

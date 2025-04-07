@@ -37,7 +37,8 @@ const Index = () => {
       parallaxElements.forEach((element, index) => {
         const speed = 0.1 + (index * 0.05);
         const yPos = -scrolled * speed;
-        element.style.transform = `translateY(${yPos}px)`;
+        // Fix: Use setAttribute for setting style property
+        element.setAttribute('style', `transform: translateY(${yPos}px)`);
       });
     };
 

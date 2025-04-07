@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Glitch } from "lucide-react";
+import { AlertTriangle } from "lucide-react";
 
 const NotFound = () => {
   const location = useLocation();
@@ -18,7 +18,7 @@ const NotFound = () => {
     <div className="min-h-screen flex items-center justify-center bg-cyber-black p-4">
       <div className="text-center max-w-md">
         <div className="inline-flex items-center justify-center w-24 h-24 mb-6 rounded-full bg-cyber-dark border border-cyber-purple">
-          <Glitch className="h-12 w-12 text-cyber-purple animate-pulse-glow" />
+          <AlertTriangle className="h-12 w-12 text-cyber-purple animate-pulse-glow" />
         </div>
         <h1 className="font-cyber text-6xl mb-4 font-bold">
           <span className="bg-gradient-to-r from-cyber-pink via-cyber-purple to-cyber-cyan bg-clip-text text-transparent">

@@ -62,21 +62,21 @@ const HeroSection = () => {
             ref={headingRef} 
             className="font-cyber text-5xl sm:text-6xl md:text-7xl font-bold mb-4"
           >
-            <span className="text-cyber-purple text-glow">NEURO</span>
-            <span className="text-white">HACK</span>
+            <span className="text-cyber-purple text-glow">CS</span>
+            <span className="text-white"> Connect Pakistan</span>
           </h1>
           
           <p 
             ref={taglineRef}
             className="text-xl md:text-2xl text-gray-300 mb-8 max-w-lg"
           >
-            Where <span className="text-cyber-cyan">human intelligence</span> meets <span className="text-cyber-pink">artificial intelligence</span> to create the future
+            Empowering <span className="text-cyber-cyan">computer science professionals</span> through <span className="text-cyber-pink">collaboration and innovation</span>
           </p>
           
           <div className="flex flex-wrap gap-4">
-            <Button className="cyber-button">Join the Hackathon</Button>
+            <Button className="cyber-button">Join the Network</Button>
             <Button variant="outline" className="border-cyber-cyan text-cyber-cyan hover:bg-cyber-cyan hover:bg-opacity-10">
-              Watch Demo
+              Explore Events
             </Button>
           </div>
         </div>
@@ -86,7 +86,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-cyber-purple to-cyber-cyan rounded-full opacity-20 blur-xl"></div>
             <img 
               src="/lovable-uploads/8a6dffde-7d28-496c-b9ad-53ffa1c68905.png" 
-              alt="NeuroHack Logo" 
+              alt="CS Connect Logo" 
               className="relative z-10 w-full h-full object-contain"
             />
           </div>
