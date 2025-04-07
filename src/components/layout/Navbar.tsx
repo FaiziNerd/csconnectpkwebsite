@@ -1,7 +1,6 @@
-
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { Menu, X, Brain } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface NavItem {
@@ -50,7 +49,11 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-2">
-          <Brain className="w-8 h-8 text-cyber-purple" />
+          <img 
+            src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
+            alt="CS Connect Logo" 
+            className="w-8 h-8 text-cyber-purple"
+          />
           <span className="font-cyber text-xl font-bold text-white">
             <span className="text-cyber-purple">CS</span> Connect Pakistan
           </span>

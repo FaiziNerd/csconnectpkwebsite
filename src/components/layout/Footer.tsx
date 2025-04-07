@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Linkedin, Instagram, Brain } from 'lucide-react';
+import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -8,7 +8,11 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <Brain className="w-8 h-8 text-cyber-purple" />
+              <img 
+                src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
+                alt="CS Connect Logo" 
+                className="w-8 h-8 text-cyber-purple"
+              />
               <span className="font-cyber text-xl font-bold text-white">
                 <span className="text-cyber-purple">CS</span> Connect Pakistan
               </span>

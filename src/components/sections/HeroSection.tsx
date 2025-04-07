@@ -85,7 +85,7 @@ const HeroSection = () => {
           <div className="relative w-64 h-64">
             <div className="absolute inset-0 bg-gradient-to-r from-cyber-purple to-cyber-cyan rounded-full opacity-20 blur-xl"></div>
             <img 
-              src="/lovable-uploads/8a6dffde-7d28-496c-b9ad-53ffa1c68905.png" 
+              src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
               alt="CS Connect Logo" 
               className="relative z-10 w-full h-full object-contain"
             />
