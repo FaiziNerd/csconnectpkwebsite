@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Twitter, Linkedin, Instagram, Brain } from 'lucide-react';
 
@@ -11,12 +10,11 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <Brain className="w-8 h-8 text-cyber-purple" />
               <span className="font-cyber text-xl font-bold text-white">
-                <span className="text-cyber-purple">NEURO</span>HACK
+                <span className="text-cyber-purple">CS</span> Connect Pakistan
               </span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
-              Where human intelligence meets artificial intelligence to create the future.
-              Join us in revolutionizing the way humans interact with machines.
+              Connecting computer science professionals across Pakistan, bridging talent and opportunities.
             </p>
             <div className="flex gap-4">
               <a href="#" className="p-2 rounded-full bg-cyber-black hover:bg-cyber-purple hover:bg-opacity-20 transition-colors">
@@ -60,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-16 pt-8 border-t border-cyber-purple border-opacity-20 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-500 text-sm mb-4 md:mb-0">&copy; 2025 NeuroHack. All rights reserved.</p>
+          <p className="text-gray-500 text-sm mb-4 md:mb-0">&copy; 2025 CS Connect Pakistan. All rights reserved.</p>
           <div className="flex gap-4">
             <a href="#" className="text-gray-500 text-sm hover:text-cyber-purple">Privacy</a>
             <a href="#" className="text-gray-500 text-sm hover:text-cyber-purple">Terms</a>

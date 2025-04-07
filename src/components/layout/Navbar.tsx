@@ -52,7 +52,7 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-2">
           <Brain className="w-8 h-8 text-cyber-purple" />
           <span className="font-cyber text-xl font-bold text-white">
-            <span className="text-cyber-purple">NEURO</span>HACK
+            <span className="text-cyber-purple">CS</span> Connect Pakistan
           </span>
         </a>
         
