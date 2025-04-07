@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
 
@@ -10,8 +11,8 @@ const Footer = () => {
             <div className="flex items-center gap-2 mb-4">
               <img 
                 src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
-                alt="CS Connect Logo" 
-                className="w-8 h-8 text-cyber-purple"
+                alt="CS Connect Pakistan Logo" 
+                className="w-8 h-8"
               />
               <span className="font-cyber text-xl font-bold text-white">
                 <span className="text-cyber-purple">CS</span> Connect Pakistan
@@ -75,3 +76,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

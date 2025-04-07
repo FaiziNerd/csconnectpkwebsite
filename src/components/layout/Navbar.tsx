@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
@@ -51,8 +52,8 @@ const Navbar = () => {
         <a href="#home" className="flex items-center gap-2">
           <img 
             src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
-            alt="CS Connect Logo" 
-            className="w-8 h-8 text-cyber-purple"
+            alt="CS Connect Pakistan Logo" 
+            className="w-8 h-8"
           />
           <span className="font-cyber text-xl font-bold text-white">
             <span className="text-cyber-purple">CS</span> Connect Pakistan
@@ -107,3 +108,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+

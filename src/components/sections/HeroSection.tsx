@@ -86,7 +86,7 @@ const HeroSection = () => {
             <div className="absolute inset-0 bg-gradient-to-r from-cyber-purple to-cyber-cyan rounded-full opacity-20 blur-xl"></div>
             <img 
               src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
-              alt="CS Connect Logo" 
+              alt="CS Connect Pakistan Logo" 
               className="relative z-10 w-full h-full object-contain"
             />
           </div>
@@ -104,3 +104,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+
