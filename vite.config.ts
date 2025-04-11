@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/csconnectpkwebsite/", // GitHub Pages repository name
+  base: "/", // Changed from "/csconnectpkwebsite/" to "/" for HashRouter
   server: {
     host: "::",
     port: 8080,
