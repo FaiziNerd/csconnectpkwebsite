@@ -4,12 +4,12 @@
  * This handles the GitHub Pages base path when deployed
  */
 export const getAssetPath = (path: string): string => {
-  // Make sure the path starts with a slash
-  const normalizedPath = path.startsWith('/') ? path : `/${path}`;
+  // Strip leading slash if present
+  const normalizedPath = path.startsWith('/') ? path.substring(1) : path;
   
   // Get base URL from import.meta.env.BASE_URL (set in vite.config.ts)
   const basePath = import.meta.env.BASE_URL || '/';
   
-  // Remove any double slashes
-  return `${basePath.replace(/\/$/, '')}${normalizedPath}`.replace(/\/\//g, '/');
+  // Combine paths ensuring no double slashes
+  return `${basePath}${normalizedPath}`;
 };
