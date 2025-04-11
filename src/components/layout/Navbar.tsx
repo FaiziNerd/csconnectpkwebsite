@@ -39,6 +39,11 @@ const Navbar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  // Get the base URL for assets
+  const getBasePath = () => {
+    return import.meta.env.BASE_URL || "/";
+  };
+
   return (
     <header
       className={cn(
@@ -51,7 +56,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-2">
           <img 
-            src="/lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png" 
+            src={`${getBasePath()}lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png`}
             alt="CS Connect Pakistan Logo" 
             className="w-8 h-8"
           />
@@ -108,4 +113,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-

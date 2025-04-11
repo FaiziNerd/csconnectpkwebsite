@@ -1,3 +1,4 @@
+
 import React, { useEffect, useRef } from 'react';
 import { Button } from "@/components/ui/button";
 import { ArrowDownCircle } from "lucide-react";
@@ -42,6 +43,11 @@ const HeroSection = () => {
     }
   }, []);
 
+  // Get the base URL for assets
+  const getBasePath = () => {
+    return import.meta.env.BASE_URL || "/";
+  };
+
   return (
     <section id="home" className="relative min-h-screen flex flex-col justify-center items-center pt-20 pb-16 px-4 overflow-hidden">
       {/* Background circuit lines */}
@@ -84,7 +90,7 @@ const HeroSection = () => {
           <div className="relative w-64 h-64">
             <div className="absolute inset-0 bg-gradient-to-r from-cyber-purple to-cyber-cyan rounded-full opacity-20 blur-xl"></div>
             <img 
-              src="/lovable-uploads/8a6dffde-7d28-496c-b9ad-53ffa1c68905.png" 
+              src={`${getBasePath()}lovable-uploads/8a6dffde-7d28-496c-b9ad-53ffa1c68905.png`}
               alt="NeuroHack Logo" 
               className="relative z-10 w-full h-full object-contain"
             />
