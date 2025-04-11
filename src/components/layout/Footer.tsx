@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Github, Twitter, Linkedin, Instagram } from 'lucide-react';
 import { getAssetPath } from "@/utils/assetUtils";
@@ -11,7 +10,7 @@ const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <img 
-                src={getAssetPath("lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png")}
+                src="lovable-uploads/d93ee4a6-16d5-49fb-b399-b6f0368f57c2.png"
                 alt="CS Connect Pakistan Logo" 
                 className="w-8 h-8"
               />
